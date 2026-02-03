@@ -1,0 +1,18 @@
+Sirve para la creación de **sockets stream cliente** ([[Sockets Stream (TCP)]]). 
+
+
+Sus métodos más importantes son:
+
+| **Método / Constructor**                                                      | **Tipo de Retorno** | **Descripción**                                                                                                                                                      |
+| ----------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Socket()`                                                                    | `Socket`            | Constructor de la clase. Crea un socket stream cliente sin ningún puerto asociado.                                                                                   |
+| `Socket(String Host, int port)`                                               | `Socket`            | Crea un socket y lo conecta al número de puerto y al nombre de host especificados. Puede lanzar `UnknownHostException`, `IOException`.                               |
+| `Socket(InetAddress address, int port)`                                       | `Socket`            | Crea un socket y lo conecta al puerto y dirección IP especificados.                                                                                                  |
+| `Socket(InetAddress address, int port, InetAddress localAddr, int localPort)` | `Socket`            | Crea un socket y lo conecta al puerto y dirección IP especificados. Permite además especificar la IP local y el puerto local a los que se asociará el socket.        |
+| `connect(SocketAddress adr)`                                                  | `void`              | Establece la conexión con la dirección y puerto de destino (aplicación servidor). Crea un canal de comunicación privado con el proceso servidor.                     |
+| `getInputStream()`                                                            | `InputStream`       | Obtiene un objeto de clase `InputStream` (flujo de entrada) que se usa para leer bytes desde el socket. Puede lanzar `IOException`. El socket debe estar conectado.  |
+| `getOutputStream()`                                                           | `OutputStream`      | Obtiene un objeto de clase `OutputStream` (flujo de salida) que se usa para escribir bytes en el socket. Puede lanzar `IOException`. El socket debe estar conectado. |
+| `getInetAddress()`                                                            | `InetAddress`       | Devuelve la dirección IP a la que el socket está conectado. Si no está conectado devuelve `null`.                                                                    |
+| `getLocalPort()`                                                              | `int`               | Devuelve el puerto local al que está enlazado el socket. Si no está enlazado a ningún puerto devuelve `-1`.                                                          |
+| `getPort()`                                                                   | `int`               | Devuelve el puerto remoto al que está conectado el socket. `0` si no está conectado a ningún puerto.                                                                 |
+| `close()`                                                                     | `void`              | Cierra el socket.                                                                                                                                                    |
