@@ -1,0 +1,3 @@
+A diferencia de [[TCP]], es un protocolo **no orientado a conexión**. El canal de comunicación se crea independientemente por cada mensaje, no se establece ni se cierra, por lo que funciona **más rápido**.
+
+La desventaja es que **no garantiza** el llegue de los mensajes (**llamados datagramas**) siempre ni que este sea en el mismo orden en el que se enviaron. También tendrán una limitación de 64KB por datagrama.

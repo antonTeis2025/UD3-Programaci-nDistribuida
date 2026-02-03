@@ -1,0 +1,289 @@
+{
+  "main": {
+    "id": "1a8e254e36b3d487",
+    "type": "split",
+    "children": [
+      {
+        "id": "29b422795d1c8db3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82b46f618d50cbfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Programación distribuida.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Programación distribuida"
+            }
+          },
+          {
+            "id": "55b501284b82cbfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programación distribuida/Características de la programación distribuida.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Características de la programación distribuida"
+            }
+          },
+          {
+            "id": "488aee281cfe5f19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Programación distribuida.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Programación distribuida"
+            }
+          },
+          {
+            "id": "9371cbf0772d4c97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Pila de protocolos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Pila de protocolos"
+            }
+          },
+          {
+            "id": "714768f92cb1cec2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Protocolos de transporte/TCP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TCP"
+            }
+          },
+          {
+            "id": "77ffc31833b692fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Pila de protocolos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Pila de protocolos"
+            }
+          },
+          {
+            "id": "fa47c170992250d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tipos de Sockets/Sockets Stream (TCP).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sockets Stream (TCP)"
+            }
+          },
+          {
+            "id": "83bd88acc596c46d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d699bb0b63f1523",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a87771399eada49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "893d2f9a3253e028",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "37d350f3969a2253",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "7c6a62a4c2e6300e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "050240633e3ade1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a996d6fa833a7f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0049d97c7a6b027f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "6301ab1db561bb08",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "8a11681380872411",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "18486473d16b0459",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          },
+          {
+            "id": "48874c351f0b2c6e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "83bd88acc596c46d",
+  "lastOpenFiles": [
+    "1. Programación distribuida.md",
+    "2. Pila de protocolos.md",
+    "3. Sockets.md",
+    "Programación distribuida/Características de la programación distribuida.md",
+    "Protocolos de transporte",
+    "Programación distribuida",
+    "Programación distribuida/Elementos de un proceso de comunicación.md",
+    "img/Pasted image 20260203014514.png",
+    "Protocolos de transporte/UDP.md",
+    "Tipos de Sockets/Sockets Datagram (UDP).md",
+    "Tipos de Sockets/Sockets Stream (TCP).md",
+    "img/Pasted image 20260203013521.png",
+    "Tipos de Sockets",
+    "IP y puertos.md",
+    "Protocolos de transporte/TCP.md",
+    "img/Pasted image 20260203005648.png",
+    "img",
+    "img/Pasted image 20260203004834.png",
+    "Bienvenido.md"
+  ]
+}
